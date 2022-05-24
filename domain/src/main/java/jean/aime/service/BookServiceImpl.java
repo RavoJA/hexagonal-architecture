@@ -1,8 +1,8 @@
 package jean.aime.service;
 
-import jean.aime.data.BookDto;
-import jean.aime.port.api.BookServicePort;
-import jean.aime.port.spi.BookPersistencePort;
+import jean.aime.dto.BookDto;
+import jean.aime.port.in.BookServicePort;
+import jean.aime.port.out.BookPersistencePort;
 
 import java.util.List;
 

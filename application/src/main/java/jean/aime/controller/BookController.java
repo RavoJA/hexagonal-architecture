@@ -1,7 +1,7 @@
 package jean.aime.controller;
 
-import jean.aime.data.BookDto;
-import jean.aime.port.api.BookServicePort;
+import jean.aime.dto.BookDto;
+import jean.aime.port.in.BookServicePort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

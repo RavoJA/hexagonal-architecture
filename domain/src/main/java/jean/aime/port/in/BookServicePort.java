@@ -1,10 +1,9 @@
-package jean.aime.port.spi;
+package jean.aime.port.in;
 
-import jean.aime.data.BookDto;
+import jean.aime.dto.BookDto;
 
 import java.util.List;
-
-public interface BookPersistencePort {
+public interface BookServicePort {
 
     BookDto addBook(BookDto bookDto);
 
@@ -16,3 +15,4 @@ public interface BookPersistencePort {
 
     BookDto getBookById(Long bookId);
 }
+

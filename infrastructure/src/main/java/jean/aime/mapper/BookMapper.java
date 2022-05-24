@@ -1,6 +1,6 @@
 package jean.aime.mapper;
 
-import jean.aime.data.BookDto;
+import jean.aime.dto.BookDto;
 import jean.aime.entity.Book;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

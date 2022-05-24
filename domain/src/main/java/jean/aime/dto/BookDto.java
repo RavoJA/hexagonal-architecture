@@ -1,4 +1,4 @@
-package jean.aime.data;
+package jean.aime.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

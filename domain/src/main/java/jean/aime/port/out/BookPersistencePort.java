@@ -1,10 +1,10 @@
-package jean.aime.port.api;
+package jean.aime.port.out;
 
-import jean.aime.data.BookDto;
+import jean.aime.dto.BookDto;
 
 import java.util.List;
 
-public interface BookServicePort {
+public interface BookPersistencePort {
 
     BookDto addBook(BookDto bookDto);
 

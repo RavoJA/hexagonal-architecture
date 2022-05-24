@@ -1,9 +1,9 @@
 package jean.aime.adapter;
 
-import jean.aime.data.BookDto;
+import jean.aime.dto.BookDto;
 import jean.aime.entity.Book;
 import jean.aime.mapper.BookMapper;
-import jean.aime.port.spi.BookPersistencePort;
+import jean.aime.port.out.BookPersistencePort;
 import jean.aime.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
